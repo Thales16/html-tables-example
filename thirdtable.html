@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Overwatch Heroes</title>
+    <style>
+        body {
+            font-family: Helvetica;
+            padding: 20px;
+            background-color: #f0f0f0;
+            text-align: center;
+        }
+
+        .table-and-heading-wrapper {
+            border: 1px solid black;
+            padding: 20px;
+            margin: 20px auto;
+            width: 80%;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            background-color: white;
+            border-radius: 8px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            overflow: hidden;
+            margin-top: 10px;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        caption {
+            text-align: center;
+            font-weight: bold;
+            font-size: 1.5em;
+            padding: 10px;
+        }
+
+        th,
+        td {
+            border: 1px solid #ffb413;
+            padding: 12px;
+            text-align: center;
+        }
+
+        thead th {
+            background-color: #ff8800;
+            color: white;
+        }
+
+        img {
+            max-width: 100px;
+            height: auto;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="table-and-heading-wrapper">
+        <h1>Overwatch Hero Classes</h1>
+
+        <table aria-label="Overwatch Hero Classes Table">
+            <caption>Table of Overwatch Classes and Heroes</caption>
+            <thead>
+                <tr>
+                    <th scope="col">Class</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">Hero</th>
+                    <th scope="col">Weapon</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row" rowspan="2">Tank</th>
+                    <td>Reinhardt</td>
+                    <td>
+                        <img src="images/Overwatch-Reinhardt.png" alt="Reinhardt hero image">
+                    </td>
+                    <td>
+                        <img src="images/reinhardthammer.png" alt="Reinhardt's hammer image">
+                    </td>
+                </tr>
+                <tr>
+                    <td>D.Va</td>
+                    <td>
+                        <img src="images/D.Va_Overwatch.png" alt="D.Va hero image">
+                    </td>
+                    <td>
+                        <img src="images/dvagun.webp" alt="D.Va's Fusion Cannons image">
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row" rowspan="2">Damage</th>
+                    <td>Genji</td>
+                    <td>
+                        <img src="images/Genji.webp" alt="Genji hero image">
+                    </td>
+                    <td>
+                        <img src="images/genji-sword.png" alt="Genji's katana image">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Soldier: 76</td>
+                    <td>
+                        <img src="images/Soldier76.webp" alt="Soldier: 76 hero image">
+                    </td>
+                    <td>
+                        <img src="images/soldiergun.png" alt="Soldier: 76's Pulse Rifle image">
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row" rowspan="2">Support</th>
+                    <td>Mercy</td>
+                    <td>
+                        <img src="images/Mercy-portrait.webp" alt="Mercy hero image">
+                    </td>
+                    <td>
+                        <img src="images/mercygun.png" alt="Mercy's caduceus staff image">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Lúcio</td>
+                    <td>
+                        <img src="images/Lucio.webp" alt="Lúcio hero image">
+                    </td>
+                    <td>
+                        <img src="images/luciogun.png" alt="Lúcio's Sonic Amplifier image">
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+</body>
+
+</html>
